@@ -1,0 +1,25 @@
+body{
+    background-color: white;
+}
+
+.container{
+    padding: 100px;
+}
+
+.parent{
+    background-color: white ;
+    border-radius: 100px;
+    margin: auto;
+    padding: 5%;
+    height: 400px;
+    width: 500px;
+}
+
+.mybutton{
+    border-radius: 100px;
+}
+
+#each{
+    
+}
+

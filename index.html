@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS\css.css">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+    <div >
+    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center;padding-top: 50px;">
+      Tip Calculator
+    </h1>
+    </div>
+
+    <div class="container">
+    <div class="parent">
+            
+      <div class="mb-3">
+        <input type="number" class="form-control" id="bill" placeholder="Enter Bill Amount">
+      </div>
+
+      <div class="mb-3">
+          <select class="form-select" id = "bill_type">
+          <option value="" disabled selected hidden>How Was Your Service</option>      
+          <option value = "0.3">30% (Outstanding)</option>
+          <option value="0.2">20% (Good)</option>
+          <option value="0.15">15% (It Was Ok)</option>
+          <option value="0.1">10% (Bad)</option>
+          <option value="0.05">5% (Terrible)</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <input type="number" class="form-control" id="peeps" placeholder="Enter Number Of People Sharing The Bill">
+      </div>
+
+      <button type="button" class="btn btn-outline-success mybutton" id="calculate">Calculate</button>
+      <br><br>
+      <div id="totalTip">
+        <sup>$</sup><span id="tipvalue">0.00</span>
+        <span></span><small id="each">each</small></span>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+
+
+  <script type="text/javascript" src="JS\js.js"></script>
+</body>
+
+</html>
